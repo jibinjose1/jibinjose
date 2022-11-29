@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'poppins'; */
+}
+
+.profile-section{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.profile-section img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+.profile-section .h1{
+    margin-top: 3rem;
+    text-align: center;
+    color: brown;
+    font-family: 'poppins';
+    font-size: 30px;
+}
+.profile-section .h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'monospace';
+}
+.expert-section{
+    width: 100%;
+    margin-top: 10%;
+}
+.expert-section ul li{
+    list-style-type: none;
+    background-color: rgb(59, 144, 204);
+    padding: 20px 20px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 15px;
+}
+.myself-section {
+    width: 100%;
+    margin-top: 10%;
+}
+.myself-section .card-body{
+    font-size: 16px;
+}
+.work-section{
+    margin-top: 3%;
+}
+.education-section {
+    margin-top: 3%;
+}
+.education-section ul{
+    padding-left: 0rem;
+}
+.education-section ul li{
+    list-style-type: none;
+    background-color: rgb(59, 144, 204);
+    padding: 20px 20px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 15px;
+}
+.other-section {
+    margin-top: 3%;
+}
+.other-section ul li {
+    list-style-type: none;
+    background-color: rgb(59, 144, 204);
+    padding: 20px 20px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 15px;
+}
+.language-section{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.language-section ul li {
+    list-style-type: none;
+    background-color: rgb(59, 144, 204);
+    padding: 20px 20px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+@media only screen and (max-width:767px) {
+    .profile-section .h3 {
+        font-size: 16px;
+    }
+    .profile-section {
+        margin-top:30%;
+        width: 100%;
+    }
+    .expert-section{
+        width: 100%;
+        margin-top: 30%;
+    }
+    .contact-section{
+        margin-top: 10%;
+    }
+    .myself-section {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .executive-rofile{
+        margin-top: 10%;
+    }
+    .work-section {
+        margin-top: 10%;
+    }
+    .education-section{
+        margin-top: 10%;
+        padding-left: 0rem;
+    }
+    .other-section{
+        margin-top: 10%;
+    }
+    .hobbies-section{
+        margin-top: 10%;
+    }
+    .language-section{
+        margin-top: 10%;
+    }
+}
